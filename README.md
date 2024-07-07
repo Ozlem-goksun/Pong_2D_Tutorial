@@ -65,12 +65,14 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
       <p>🕹️ Add Rigidbody. Decrease the "Mass" value to make it move faster.</p>
       <p>🕹️ Set the " Gravity Scale" value to "0" so that it is not affected by gravity.</p>
       <p>🕹️ Set the "Angular Drag" value to "0" so that the rotational speeds do not decrease.</p>
+      <p>🕹️ Paddles should only move up and down, so we have to freeze their rotation in the "X" and " Z" axis.</p>
     </td>
   </tr>
   
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_2.png" alt="step2" style="max-width: 100%; height: auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/7-Paddle_Set_Rigidbody.png" alt="7-Paaddle" style="max-width: 100%; height: auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/8-Paddle_Size.png" alt="8-Paaddle" style="max-width: 100%; height: auto;">
     </td>
   </tr>
   
