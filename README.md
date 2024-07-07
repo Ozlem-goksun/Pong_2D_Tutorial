@@ -78,30 +78,29 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   
   <tr>
     <td style="text-align: center;">
-      <p>🕹️ After adding the sprite, it should appear like this 👇🏽.</p>
+      <p>🕹️ it should appear like this 👇🏽.</p>
     </td>
   </tr>
   
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_2_2.png" alt="step2_2" style="max-width: 100%; height: auto;">
+      <img src="" alt="29-Paddle_view" style="max-width: 100%; height: auto;">
     </td>
   </tr>
   </table>
 
-<p><b><i>Let's give a few features to this little square trying to be a snake.</i>🟩</b></p>
 
   <table>
     <tr>
         <td style="text-align: left;">
-          <p style="margin-top: 0;">🕹️ Add a <b><i>"Rigidbody"</i></b> component so that the snake can behave according to the laws<br> of physics.</p>
-          <p style="margin-top: 0;">🕹️ Make sure the <b></i>"Body Type"</i></b> is<b> <i>"Kinematic"</i> </b>in the<i> "Rigidbody"</i> component.</p>
+          <p style="margin-top: 0;">We need to surround the game area with invisible walls so that the ball doesn't go out of the game. We can do this with a single rectangular jammer, 
+            but in this game the ball should bounce when it hits up and down, and when it hits left and right it should affect the players' scores, so we need four walls that are separate from each other.</p>
         </td>
       </tr>
       <tr>
         <td style="vertical-align: top; text-align: center;">
-          <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_3.png" alt="step3" style="width: 450px; height: auto; display: block; margin: 0 auto;">
-          <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_3_2.png" alt="step3_2" style="width: 450px; height: auto; display: block; margin: 0 auto;">
+          <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/9-Wall.png" alt="9-Wall" style="width: 450px; height: auto; display: block; margin: 0 auto;">
+          <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/10-Walls.png" alt="10-Wall" style="width: 450px; height: auto; display: block; margin: 0 auto;">
         </td>
       </tr>
       
@@ -120,21 +119,26 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_3_3.png" alt="step3_3" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_3_4.png" alt="step3_4" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/11-Line.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/12-Line_settings.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/13-Line_Material.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/14-Line_Material_2.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/15-Line_Material_3.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/16-Line_Material_4.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/17-Line_Material_5.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/18-Line_Material_6.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/19-Line_Material_7.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/20-Scene_View.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
     </td>
   </tr>
     <tr>
     <td style="text-align: center;">
-      <p style="margin-top: 0;">🕹️ The box collider is automatically set to match the size of the object and here it will be added in the size of the square we add.</p>
-        <p>However, since the sprite that we will add as food in the next step will be a square with the same size as this square, it will be detected by the collider even when it is just touching the snake.</p>
-        <p>But we want there to be an action when the snake passes over the food. So the size of the collider must be smaller than the snake object. You can give the collider any value less than 1. I said less than 1 because we did not make any changes to the size of
-          the snake and by default we used a square with a value of 1 by 1. Here I gave the size of the collider a value of 0.75 by 0.75.</p>
+      <p style="margin-top: 0;">🕹️ </p>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_3_5.png" alt="step3_5" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/21-Scripts.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
 
