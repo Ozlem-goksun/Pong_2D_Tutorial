@@ -156,15 +156,15 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/22-Physics_Material.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/22-Physics_Material_Bouncy_settings.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/23-Physics_Material_Bouncy_settings.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-      <img src="" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/24.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
   </table>
-<p>When all setup is done, our scene will look like below.</p>
+<p></p>
   <table>
  <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_5.png" alt="step3_6" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
   </table>
