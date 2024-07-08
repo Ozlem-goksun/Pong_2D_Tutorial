@@ -84,7 +84,7 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   
   <tr>
     <td style="text-align: center;">
-      <img src="" alt="29-Paddle_view" style="max-width: 100%; height: auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/29-Paddle-View.png" alt="29-Paddle_view" style="max-width: 100%; height: auto;">
     </td>
   </tr>
   </table>
@@ -106,15 +106,12 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
       
 </table>
 
-<p>Kinematic Rigidbodies are objects that are usually moved programmatically, and their position, velocity and rotation are usually determined by code, so they are not subject to physical effects such as gravity.That's why we chose kinematic instead of dynamic body type.</p>
-<p>By the way, I recommend you to give our little dreamer square a clear name like <b><i>"Snake"</i></b> or <b><i>"Player"</i></b>.This will make your progress more organized and easier ;)</p>
-
  <table style="margin: 0 auto;">
   <tr>
     <td style="text-align: center;">
-      <p style="margin-top: 0;">🕹️ We need a collider to detect the collision of the snake with other objects. Since we are using a square, it would be best to use a <b><i>"Box Collider 2D"</i></b>.</p>
-      <p style="margin-top: 0;">🕹️ After adding the collider, check the<b> <i>"Is Trigger"</i></b> option.</p>
-       <p> We're doing this because when <i>"Is Trigger"</i> is checked, the collider object does not generate physical collision responses (for example, objects do not bounce off each other). Instead, it detects whether one object passes through another.</p>
+      <p style="margin-top: 0;">🕹️ </p>
+      <p style="margin-top: 0;">🕹️ </p>
+       <p> </p>
     </td>
   </tr>
   <tr>
@@ -139,26 +136,27 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   <tr>
     <td style="text-align: center;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/21-Scripts.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/21-Scripts_2.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/21-Scripts_3.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
 
 <tr>
     <td style="text-align: center;">
-      <p style="margin-top: 0;">🕹️ Now we add a square sprite for food and assign a <b><i>"Box Collider"</i></b> to it.</br>
-      There is no need to assign a <i>"Rigidbody"</i> to our food because it does not move and does not require physical interaction. So, we just need to add a <i>"Box Collider"</i>, and there is no need to change the size of this collider.</p>
+      <p style="margin-top: 0;">🕹️ </p>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      </br><p style="margin-top: 0;">🕹️ The last thing left to do on our scene is to add the walls that will border the snake.For this, we add 4 square sprites and size and position them like a room. I recommend using integers when sizing your wall. This will make it easier for you in the next steps. You can use the values given below.</p>
+      </br><p style="margin-top: 0;">🕹️ </p>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/wall1.png" alt="wall_1" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/wall2.png" alt="wall_2" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/wall3.png" alt="wall_3" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/wall4.png" alt="wall_4" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/22-Physics_Material.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/22-Physics_Material_Bouncy_settings.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/23-Physics_Material_Bouncy_settings.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
   </table>
