@@ -2,7 +2,7 @@
 The best way to learn game mechanics is to practice a lot.I think cloning old games is a great way to get started. This time I cloned Pong game, which was released in 1972. And I used the Unity version 2022.3.16f1 to make this game. By the way I mostly used [Zigurous](https://www.youtube.com/@Zigurous)'s [How to make Pong in Unity (Complete Tutorial) 🏓💥](https://www.youtube.com/watch?v=AcpaYq0ihaM) video to make this game so I thank [Adam Graham](https://github.com/adamgraham) very much :)
 
 ## Game Preview
-![pongGameGif](https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/gameViewer.gif)
+![pongGameGif](https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/gameView.gif)
 ## Scene Setup🎥⚙️
 Pong, our second clone game, has a scene with a ball, two paddles and a line dividing the game area.We can start making the game by adding these objects.
 </br><b><i>So let's get started and bounce the ball !!!</i>🏓</b>
@@ -162,7 +162,11 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   <table>
  <tr>
     <td style="text-align: center;">
-      <img src="" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/25-GameManager.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/26-Base_Event.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/27-Base_Event_2.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/28-scoreText.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/29-Paddle-View.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
   </table>
