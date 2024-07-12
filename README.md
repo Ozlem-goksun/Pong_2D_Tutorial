@@ -38,7 +38,7 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
       <p>🕹️ Set the <b><i>"Angular Drag"</i></b> and <b><i>"Gravity Scale"</i></b> to <b><i>"0"</i></b> in the <i>"Rigidbody"</i> component. <i>"Angular Drag"</i> controls the object's drag resistance to the speed of rotation. </br>
         The higher the value, the faster the rotation of the object decreases. We don't want the ball to slow down, so we reset the value to <b><i>"0"</i></b>.</p>
       <p>🕹️ In the same way, we set the <b><i>"Gravity Scale"</i></b> to <b><i>"0"</i></b> so that the ball is not affected by gravity.</p>
-      <p>🕹️ By the way, freeze the rotation of the ball on the z-axis so that it does not move in the 3rd dimension, i.e. on the z-axis.</p>
+      <p>🕹️ By the way, freeze the rotation of the ball on the <b><i>"z"</i></b>-axis so that it does not move in the 3rd dimension, i.e. on the z-axis.</p>
      <p>🕹️ Then add a "Box Collider" so that the ball can recognize other objects in the game area when it hits them.</p>
     </td>
   </tr>
@@ -59,10 +59,12 @@ To hit the balls, we need to create two paddles, one managed by us and one manag
   <tr>
     <td style="text-align: center;">
       <p>🕹️ Add a square sprite for this like you did when you created the ball.</p>
-      <p>🕹️ Add Rigidbody. Decrease the "Mass" value to make it move faster.</p>
-      <p>🕹️ Set the " Gravity Scale" value to "0" so that it is not affected by gravity.</p>
-      <p>🕹️ Set the "Angular Drag" value to "0" so that the rotational speeds do not decrease.</p>
-      <p>🕹️ Paddles should only move up and down, so we have to freeze their rotation in the "X" and " Z" axis.</p>
+      <p>🕹️ Add <i>"Rigidbody"</i>. Decrease the <b><i>"Mass"</i></b> value to make it move faster.</p>
+      <p>🕹️ Set the <b><i>"Gravity Scale"</i></b> value to <b><i>"0"</i></b> so that it is not affected by gravity.</p>
+      <p>🕹️ Set the <b><i>"Angular Drag"</i></b> value to <b><i>"0"</i></b> so that the rotational speeds do not decrease.</p>
+      <p>🕹️ You can set the <b><i>"Linear Drag"</i></b> to a value (such as 2) that does not interfere with the ball's movement.</br>
+        <i>"Linear Drag"</i> simulates the air resistance an object encounters as it moves. Giving paddles a "Linear Drag" value makes their movement more controlled and realistic.</p>
+      <p>🕹️ Paddles should only move up and down, so we have to freeze their rotation in the <b><i>"X"</i></b> and <b><i>"Z"</i></b> axis.</p>
     </td>
   </tr>
   
