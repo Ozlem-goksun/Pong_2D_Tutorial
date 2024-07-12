@@ -13,7 +13,7 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
   <tr>
     <td>
       <p style="margin-top: 0;">First, let's adjust the main camera settings to increase its field of view so that objects in our game area appear smaller.</p>
-      <p>🕹️ At first, we add a <b><i>"2D Object > Sprites > Square"</i></b> to the scene in <i>"Hierarchy"</i> window.</p>
+      <p>🕹️ At first, we add a <b><i>"2D Object > Sprites > Square"</i></b> to the scene in <b><i>"Hierarchy"</i></b> window.</p>
     </td>
   </tr>
   <tr>
@@ -23,7 +23,7 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
   </tr>
    <tr>
     <td>
-      <p>🕹️ As you can see below, the ball looks too big on the scene when it is first added. Let's fix this first. In the inspector window you can change the size of the ball by going to the transform component.</p>
+      <p>🕹️ As you can see below, the ball looks too big on the scene when it is first added. Let's fix this first. In the <b><i>"Inspector"</i></b> window you can change the size of the ball by going to the <b><i>"Transform"</i></b> component.</p>
     </td>
   </tr>
    <tr>
@@ -34,11 +34,10 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
   </tr>
   <tr>
     <td>
-      <p>🕹️ And then add a "Rigidbody" component so that the ball can behave according to the laws of physics.</p>
-      <p>🕹️ Set the "Angular Drag" and "Gravity Scale" to "0" in the Rigidbody Component. Angular Drag controls the object's drag resistance to the speed of rotation. </br>
-        The higher the value, the faster the rotation of the object decreases. We don't want the ball to slow down, so we reset the value to "0".
-        In the same way, we set the "Gravity Scale" to "0" so that the ball is not affected by gravity.
-      </p>
+      <p>🕹️ And then add a <b><i>"Rigidbody"</i></b> component so that the ball can behave according to the laws of physics.</p>
+      <p>🕹️ Set the <b><i>"Angular Drag"</i></b> and <b><i>"Gravity Scale"</i></b> to <b><i>"0"</i></b> in the <i>"Rigidbody"</i> component. <i>"Angular Drag"</i> controls the object's drag resistance to the speed of rotation. </br>
+        The higher the value, the faster the rotation of the object decreases. We don't want the ball to slow down, so we reset the value to <b><i>"0"</i></b>.</p>
+      <p>🕹️ In the same way, we set the <b><i>"Gravity Scale"</i></b> to <b><i>"0"</i></b> so that the ball is not affected by gravity.</p>
       <p>🕹️ By the way, freeze the rotation of the ball on the z-axis so that it does not move in the 3rd dimension, i.e. on the z-axis.</p>
      <p>🕹️ Then add a "Box Collider" so that the ball can recognize other objects in the game area when it hits them.</p>
     </td>
@@ -51,11 +50,10 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
     </td>
   </tr>
   
-</table><p><i>Let's go to the next step.</i></p>
+</table><p><i>So let's go to the next step.</i></p>
 
 ### Paddle Settings 🏓
-Now we need to create two paddles to hit the balls, one managed by us and one managed by the computer.
-
+To hit the balls, we need to create two paddles, one managed by us and one managed by the computer.
 <table style="margin-left: auto; margin-right: auto;">
   
   <tr>
@@ -77,7 +75,7 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   
   <tr>
     <td style="text-align: center;">
-      <p>🕹️ it should appear like this 👇🏽.</p>
+      <p>🕹️ After these steps, your scene should look like this 👇🏽.</p>
     </td>
   </tr>
   
@@ -92,7 +90,7 @@ Now we need to create two paddles to hit the balls, one managed by us and one ma
   <table>
     <tr>
         <td style="text-align: left;">
-          <p style="margin-top: 0;">We need to surround the game area with invisible walls so that the ball doesn't go out of the game. We can do this with a single rectangular jammer, 
+          <p style="margin-top: 0;">Now we need to surround the game area with invisible walls so that the ball doesn't go out of the game. We can do this with a single rectangular jammer, 
             but in this game the ball should bounce when it hits up and down, and when it hits left and right it should affect the players' scores, so we need four walls that are separate from each other.</p>
         </td>
       </tr>
