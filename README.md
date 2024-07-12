@@ -23,7 +23,7 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
   </tr>
    <tr>
     <td>
-      <p>🕹️ As you can see below, the ball looks too big on the scene when it is first added. Let's fix this first</p>
+      <p>🕹️ As you can see below, the ball looks too big on the scene when it is first added. Let's fix this first. In the inspector window you can change the size of the ball by going to the transform component.</p>
     </td>
   </tr>
    <tr>
@@ -34,11 +34,12 @@ Pong, our second clone game, has a scene with a ball, two paddles and a line div
   </tr>
   <tr>
     <td>
-      <p>🕹️ Add a "Rigidbody" component so that the ball can behave according to the laws of physics.</p>
+      <p>🕹️ And then add a "Rigidbody" component so that the ball can behave according to the laws of physics.</p>
       <p>🕹️ Set the "Angular Drag" and "Gravity Scale" to "0" in the Rigidbody Component. Angular Drag controls the object's drag resistance to the speed of rotation. </br>
         The higher the value, the faster the rotation of the object decreases. We don't want the ball to slow down, so we reset the value to "0".
         In the same way, we set the "Gravity Scale" to "0" so that the ball is not affected by gravity.
       </p>
+      <p>🕹️ By the way, freeze the rotation of the ball on the z-axis so that it does not move in the 3rd dimension, i.e. on the z-axis.</p>
      <p>🕹️ Then add a "Box Collider" so that the ball can recognize other objects in the game area when it hits them.</p>
     </td>
   </tr>
