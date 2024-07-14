@@ -110,22 +110,63 @@ To hit the balls, we need to create two paddles, one managed by us and one manag
  <table style="margin: 0 auto;">
   <tr>
     <td style="text-align: center;">
-      <p style="margin-top: 0;">🕹️ </p>
-      <p style="margin-top: 0;">🕹️ </p>
-       <p> </p>
+      <p style="margin-top: 0;">In this game we need to define the game areas for the two players. For this, a line through the center of the scene will be enough.</p>
+      <p style="margin-top: 0;">🕹️ Now add a <b><i>"Line Renderer" </b></i>as component.</p>
+      <p style="margin-top: 0;">🕹️ You can then resize it as below so that the line does not look too rough. I recommend making other adjustments as below.</p>
+        <p>After these steps your scene will be divided by a straight line.</p>
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/11-Line.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/11-Line.png" style="width: 450px; height: auto; display: inline-block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/12-Line_settings.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+    </td>
+  </tr>
+   <tr>
+     <td>
+       <p>It may look nicer if you use a dashed line instead of a straight line. For this you can follow the steps below.</p>
+       <p>🕹️ First, create a material to add to the "Line Renderer" component.</p>
+     </td>
+   </tr>
+   <tr>
+    <td>
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/13-Line_Material.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+    </td>
+   </tr>
+    <tr>
+      <td>
+        <p>🕹️ Go to the inspector window and set " Material > Shader > Unlit > Transparent".</p>
+        <p>🕹️ Assign an image of a 0.5 by 0.5 square, transparent on the outside, to the material. You can find this image in the <b><i>"Sprites"</i></b> folder in the <b><i>"Assets"</i></b>.</p>
+        <p>🕹️ Just drag the image to the correct box in the <i>"Inspector"</i> window while clicking on the material for assigning the image to the material.</p>
+      </td>
+    </tr>
+    <tr>
+     <td>
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/14-Line_Material_2.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/15-Line_Material_3.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/16-Line_Material_4.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>🕹️ Click on the image that you assigned to the material and set <b><i>"Wrap Mode > Repeat"</i></b> and <b><i>"Filter Mode > Point (no filter)"</i></b> in the <i>"Inspector"</i> window</p>
+        <p>🕹️ Now you can assign the material you created by dragging it to the material section in the <i>"Line Renderer"</i>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/17-Line_Material_5.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/18-Line_Material_6.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/19-Line_Material_7.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">
+      <p style="margin-top: 0;">After these steps the scene will look like the below.</p>
+      </td>
+    </tr>
+  <tr>
+    <td>
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/20-Scene_View.png" style="max-width: 100%; height: auto; display: inline-block; margin: 0 auto;">
     </td>
   </tr>
@@ -177,29 +218,7 @@ To hit the balls, we need to create two paddles, one managed by us and one manag
   ## Snake Movement 🐍🤸🏻‍♀️
 
   <p>Now that our game area is ready, we can start to move the snake. Of course, we will give the snake movement using code. <b><i>So let's move on.</i></b></br></p>
-  
-  <table>
- <tr>
-    <td style="text-align: center;">
-      <p style="margin-top: 0;">🕹️ As you know, we will add mechanics to objects using <b><i>"C#"</i></b>. For this, first we need to create a <b><i>"C# Script"</i></b> file in the <b><i>"Assets"</i></b> folder.</p>
-    </td>
-    </tr>
-      <tr>
-      <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_6.png" alt="step3_6" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-    </td>
-     </tr>
-    <tr>
-    <td style="text-align: center;">
-      <p style="margin-top: 0;">🕹️ In order for the script to affect the snake object, it must be added as a component to the snake object.</p>
-    </td>
-    </tr>
-      <tr>
-      <td style="text-align: center;">
-      <img src="https://github.com/Ozlem-goksun/Snake2D_Unity_Tutorial/blob/main/Steps_ss/step_6_2.png"  style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-    </td>
-     </tr>
- </table>
+
 
 <p>Now it's time to open the script. When you first open the script you will see code blocks like this by default. We will add new libraries (using System.....) depending on the commands we write in the code. 
   For now, the libraries given below will be more than enough.</p>
