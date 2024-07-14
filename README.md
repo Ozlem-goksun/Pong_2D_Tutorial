@@ -210,15 +210,13 @@ To hit the balls, we need to create two paddles, one managed by us and one manag
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/26-Base_Event.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/27-Base_Event_2.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
       <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/28-scoreText.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-      <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/29-Paddle-View.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
   </table>
   
-  ## Snake Movement 🐍🤸🏻‍♀️
+  ## Objects Movement 🏓
 
-  <p>Now that our game area is ready, we can start to move the snake. Of course, we will give the snake movement using code. <b><i>So let's move on.</i></b></br></p>
-
+  <p><b><i>Time to move for the ball and paddles.</i></b></p>
 
 <p>Now it's time to open the script. When you first open the script you will see code blocks like this by default. We will add new libraries (using System.....) depending on the commands we write in the code. 
   For now, the libraries given below will be more than enough.</p>
