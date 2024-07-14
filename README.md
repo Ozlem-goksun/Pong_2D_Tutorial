@@ -94,17 +94,19 @@ To hit the balls, we need to create two paddles, one managed by us and one manag
         <td style="text-align: left;">
           <p style="margin-top: 0;">Now we need to surround the game area with invisible walls so that the ball doesn't go out of the game. We can do this with a single rectangular jammer, 
             but in this game the ball should bounce when it hits up and down, and when it hits left and right it should affect the players' scores, so we need four walls that are separate from each other.</p>
+          <p>🕹️ You can create a wall of the right size and position by following the steps <b><i>"Create Empty" > </i></b>Add <b><i>"Box Collider".</i></b></p>
+          <p>🕹️ Repeat this for all 4 walls. Make sure that the walls completely cover the game area.</p>
+          <p>🕹️ The ball will no longer be able to move out of the game scene.</p>
         </td>
       </tr>
       <tr>
         <td style="vertical-align: top; text-align: center;">
           <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/9-Wall.png" alt="9-Wall" style="width: 450px; height: auto; display: block; margin: 0 auto;">
-          <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/10-Walls.png" alt="10-Wall" style="width: 450px; height: auto; display: block; margin: 0 auto;">
+          <img src="https://github.com/Ozlem-goksun/Pong_2D_Tutorial/blob/main/Steps/10-Walls.png" alt="10-Wall" style="width: 500px; height: auto; display: block; margin: 0 auto;">
         </td>
       </tr>
-      
 </table>
-
+<b><i>So we can move on.</i></b>
  <table style="margin: 0 auto;">
   <tr>
     <td style="text-align: center;">
