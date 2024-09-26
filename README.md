@@ -220,11 +220,3 @@ To hit the balls, we need to create two paddles, one managed by us and one manag
 
 <p>Now it's time to open the script. When you first open the script you will see code blocks like this by default. We will add new libraries (using System.....) depending on the commands we write in the code. 
   For now, the libraries given below will be more than enough.</p>
-
-
-  ### Eating Food 🍎
-
-
-#### There seems to be nothing left to do. For now.
-### See you in more advanced versions of the game.
-# Good luck with the food hunt🐍🍎.
